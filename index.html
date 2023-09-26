@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Matias Basaez</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#formacion" onclick="seleccionar()">FORMACION</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/foto.jpeg" alt="">
+            </div>
+            <h1>Matias Basaez</h1>
+            <h2>Técnico Informático</h2>
+        </div>
+    </section>
+
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Matias Basaez.</span> Me gusta programar sobre todo cuando estoy motivado, me encantan los videojuegos y pasar tiempo libre junto a mi familia y tocar guitarra, Me fascina el Death Metal sobre todo para programar.</p>
+
+            <div class="fila">
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            02/03/2002
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +56 9 7218 8706
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            m.basaez.20@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            https://github.com/Smoothsex
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Los Boldos, Casa 25, Santa Julia
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MySql</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>71%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Linux</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="formacion" class="formacion">
+        <div class="contenido-seccion">
+            <h2>Formación</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Educacion Basica</h4>
+                        <span class="casa">Colegio Miraflores D-329</span>
+                        <span class="fecha">2008 - 2015</span>
+                        <p>Tuve uno de los mejores momentos durante mis años escolares, especialmente con mis compañeros de clase. Teníamos una comunicación excepcional y solíamos organizarnos para pasar los fines de semana jugando juntos.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Educacion Tecnica Superior</h4>
+                        <span class="casa">Universidad Tecnica Federico Santa Maria</span>
+                        <span class="fecha">2021 - 2021</span>
+                        <p>No tengo muchos recuerdos de aquel año, ya que solo duré un año en esa etapa escolar, pero durante ese tiempo, tuve compañeros que siempre estaban dispuestos a acompañar y apoyar en cualquier situación. Nunca olvidaré su amistad y apoyo incondicional.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Educacion</h3>
+                    <div class="item der">
+                        <h4>Liceo Bicentenario Jose Francisco Vergara</h4>
+                        <span class="fecha">2016 - 2020</span>
+                        <p>Durante mi tiempo en el liceo, lo que más recuerdo es haber tenido un amplio grupo de amigos, aunque con el tiempo, solo unos pocos permanecieron a mi lado. Lo que más constante estuvo en mi vida fue la música y mi guitarra. Además, no puedo olvidar el apoyo invaluable que recibí de mis profesores durante mi época como músico; siempre estuvieron ahí para respaldarme.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Educacion Tecnico Superior</h4>
+                        <span class="casa">Cft De La Region De Valparaiso</span>
+                        <span class="fecha">2022 - 2024</span>
+                        <p>Durante estos años académicos, he tenido la suerte de encontrar a los mejores amigos que jamás había tenido. También he contado con profesores que están siempre dispuestos a brindar todo tipo de ayuda. Estos años han sido testigos de algunos de los mejores momentos de mi vida, y quiero expresar mi profundo agradecimiento a todos, ya que gracias a ellos, soy quien soy en la actualidad.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto" onclick="pagina_cv()">
+                    <img src="img/CV.png" alt="CV" onclick="pagina_cv()">
+                    <div class="overlay">
+                        <h3>Desafio 1</h3>
+                        <p>Curriculum Vitae</p>
+                    </div>
+                </div>
+                <div class="proyecto" onclick="pagina_p2()">
+                    <img src="img/Desafio2.png" alt="">
+                    <div class="overlay">
+                        <h3>Desafio 2</h3>
+                        <p>Landing Page</p>
+                    </div>
+                </div>
+                <div class="proyecto" onclick="iguana()">
+                    <img src="img/Desafio3.png" alt="">
+                    <div class="overlay">
+                        <h3>Desafio 3</h3>
+                        <p>Iguana</p>
+                    </div>
+                </div>
+                <div class="proyecto" onclick="cupones()">
+                    <img src="img/desafio4.png" alt="">
+                    <div class="overlay">
+                        <h3>Desafio 4</h3>
+                        <p>Cupones</p>
+                    </div>
+                </div>
+                <a href="#inicio" onclick="portafolio()">
+                    <div class="proyecto">
+                        <img src="img/portafolio.png" alt="">
+                        <div class="overlay">
+                            <h3>Final</h3>
+                            <p>Portafolio</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
